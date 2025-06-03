@@ -1,27 +1,27 @@
 # Bear Project
 
-Este projeto Java implementa diferentes tipos de ursos com comportamentos variados. Cada classe representa um tipo de urso com características e métodos específicos.
+This Java project implements different types of bears with varied behaviors. Each class represents a type of bear with specific characteristics and methods.
 
-## Estrutura do Projeto
+## Project Structure
 
-- `Bear.java`: Classe base para todos os ursos.
-- `SimpleBear.java`: Urso simples, herda de Bear.
-- `BeerBear.java`: Urso com comportamento relacionado a cerveja.
-- `CrankyBear.java`: Urso mal-humorado.
-- `Shop.java`: Classe para gerenciamento de uma loja de ursos.
-- `Main.java`: Classe principal para execução do programa.
+- `Bear.java`: Base class for all bears.
+- `SimpleBear.java`: Simple bear, inherits from Bear.
+- `BeerBear.java`: Bear with beer-related behavior.
+- `CrankyBear.java`: Grumpy bear.
+- `Shop.java`: Class for managing a bear shop.
+- `Main.java`: Main class to run the program.
 
-## Como Executar
+## How to Run
 
-1. Compile todas as classes Java:
+1. Compile all Java classes:
    ```sh
    javac src/*.java
    ```
-2. Execute a classe principal:
+2. Run the main class:
    ```sh
    java -cp src Main
    ```
 
-## Requisitos
-- Java 8 ou superior
+## Requirements
+- Java 8 or higher
 
